@@ -1,0 +1,167 @@
+*{
+   direction: ltr;
+   text-transform:capitalize;
+}
+.input{
+	border:none;
+	background:none;
+	border-bottom:2px;
+}
+header{
+
+  width:100% ;
+   overflow: hidden;
+   background-color: #650707  ;
+  
+}
+button{
+	float:lift ;
+}
+.Welcome{
+  color: #ffffff ;
+  font-size: 20px;
+  font-style: bold ;
+  float: right;
+  margin-right: 20px;
+}
+.logoo{
+  float: right;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-right: 10px;
+}
+
+table{
+  margin:10px;
+  padding:50px;
+
+}
+#table{
+  display: inline;
+}
+.logo{
+
+ float: left;
+
+}
+.Lists
+       {
+      color:#650707;
+          font-size: 14pt;
+           background-color:#EBE7E4 ;
+            width:100% ;
+            padding-left: 10px;
+       }
+ 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;      
+    width: 1313px;
+
+       }
+
+li {
+    float: left;
+    padding-left: 10px;
+     padding-left: 10px;
+           }
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #656565;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+           font-weight: 700;
+           font-size:large;
+       }
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:#564740;
+    color: #EBE7E4 ;
+    text-align: center;
+}
+
+li.dropdown {
+    display: inline-block;
+    text-align: center;
+
+}
+
+ 
+.div{
+
+background: url(img/bcResturant.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+     
+}
+
+footer{
+   background-color:#650707 ;
+   width:100% ;
+   overflow: hidden;
+   color: #EBE7E4;
+   text-align: center;
+   display: inherit;
+padding-top: 10px;
+}
+
+.table{
+ direction: ltr;
+   border-radius:10px;
+            text-align: left;
+            font-size: 24px;
+            box-shadow:  8px 8px 8px #BFB2C3;
+ background-color: #ffffff ;
+ text-transform:capitalize;
+	  
+}
+
+.submit{
+background-color: #650707 ;
+padding:10px;
+height:50px ;
+font-size: 20px;
+margin: 10px;
+color: #EBE7E4;
+
+}
+
+form{
+
+  margin: 100px;
+  text-align: center;
+  direction: center ;
+   text-transform:capitalize;
+}
+
+h1{
+  color: #650707;
+}
+.lin{
+display: inline;
+}
+select{
+  width: 150px;
+}
+h2{
+  color: #EBE7E4;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 80%;
+}
